@@ -8,14 +8,14 @@ import (
     "io/ioutil"
     "strings"
 )
-
-const FILE_NAME1 string = "train.txt"
-const FILE_NAME2 string = "facts.txt"
-const FILE_NAME3 string = "cooking.txt"
-const FILE_NAME4 string = "misc.txt"
-const FILE_NAME5 string = "clown.txt"
-const FILE_NAME6 string = "random.txt"
-const FILE_NAME7 string = "funny.txt"
+const FOLDER_NAME string = "data/"
+const FILE_NAME1 string = FOLDER_NAME+"train.txt"
+const FILE_NAME2 string = FOLDER_NAME+"facts.txt"
+const FILE_NAME3 string = FOLDER_NAME+"cooking.txt"
+const FILE_NAME4 string = FOLDER_NAME+"misc.txt"
+const FILE_NAME5 string = FOLDER_NAME+"clown.txt"
+const FILE_NAME6 string = FOLDER_NAME+"random.txt"
+const FILE_NAME7 string = FOLDER_NAME+"funny.txt"
 const RESP_LENGTH int = 10
 
 //Structure to hold the words
